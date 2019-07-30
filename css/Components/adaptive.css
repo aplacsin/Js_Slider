@@ -1,0 +1,71 @@
+@media (max-width: 369.99px) {
+
+
+    /* Slide title */
+    div.text-carousel {
+        font-size: 15px;
+    }
+
+    div.wrapper-button button {
+        width: 110px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    div.wrapper-button {
+        margin-top: 70px;
+    }
+
+
+    /* Button next and previous */
+    div.carousel .carousel-control-prev,
+    div.carousel .carousel-control-next {
+        font-size: 20px;
+        margin-top: -30px;
+    }
+
+    div.circle-carousel i {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+@media (min-width: 370px) and (max-width: 575.99px) {
+
+
+    /* Slide title */
+    div.text-carousel {
+        font-size: 20px;
+    }
+
+    div.wrapper-button button {
+        width: 130px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    div.wrapper-button {
+        margin-top: 90px;
+    }    
+}
+
+
+@media (min-width: 576px) and (max-width: 700px) {
+
+    
+    /* Slide title */
+    div.text-carousel {
+        font-size: 25px;
+    }
+
+    div.wrapper-button button {
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    div.wrapper-button {
+        margin-top: 90px;
+    }
+}
