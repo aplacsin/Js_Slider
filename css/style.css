@@ -27,7 +27,6 @@
     margin-top: -40px;
     padding: 16px;
     color: #aaa;
-    font-weight: bold;
     font-size: 40px;
     transition: 0.4s;
 }
@@ -137,29 +136,30 @@
 
 /* Animation of slides */
 .carousel .carousel-item {
-    animation-name: fade;    
+    animation-name: fade;
     animation-duration: 2s;
-    animation-timing-function: ease-in-out;    
+    animation-timing-function: ease-in-out;
+    visibility: visible !important;
 }
 
 
-@keyframes fade {
-    0% {
-        transform: scale(0);
-        opacity: 0.0;
-    }
+@keyframes fade {    
+        0% {
+            transform: scale(0);
+            opacity: 0.0;
+        }
 
-    60% {
-        transform: scale(1.02);
-    }
+        60% {
+            transform: scale(1.02);
+        }
 
-    80% {
-        transform: scale(1);
-        opacity: 1;
-    }
+        80% {
+            transform: scale(1);
+            opacity: 1;
+        }
 
-    100% {
-        transform: scale(1);
-        opacity: 1;
-    }
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }       
 }
